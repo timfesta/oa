@@ -24,10 +24,7 @@ gem 'paperclip'
 gem 'aws-sdk'
 gem "omniauth-google-oauth2", "~> 0.2.1"
 
-gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
-gem 'activeadmin', github: 'activeadmin'
-gem 'inherited_resources', github: 'activeadmin/inherited_resources'
-gem 'devise'
+
 
 group :development, :test do
   gem 'byebug'
